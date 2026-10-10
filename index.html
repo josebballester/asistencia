@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+  >
+
+  <meta
+    name="theme-color"
+    content="#f2f2f7"
+  >
+
+  <title>Control de Asistencia</title>
+
+  <style>
+    /* La página ocupa toda la pantalla */
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #f2f2f7;
+    }
+
+    /* Contenedor del iframe */
+    .iframe-container {
+      position: fixed;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    /* Aplicación de Google Apps Script */
+    .app-iframe {
+      display: block;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      border: none;
+      background-color: #f2f2f7;
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="iframe-container">
+
+    <iframe
+      class="app-iframe"
+      src="https://script.google.com/macros/s/AKfycbzR1feYmffX25HiPQASaFdhMkM-j3Bz-iJDWIJ9TNc-JLT6nN8mCP5ju_KEKXc6sM3RQg/exec"
+      title="Control de Asistencia"
+      allow="fullscreen"
+    >
+      No fue posible cargar la aplicación.
+    </iframe>
+
+  </main>
+
+</body>
+</html>
